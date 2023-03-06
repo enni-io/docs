@@ -1,0 +1,14 @@
+.banner {
+  svg {
+    width: 500px;
+    padding-bottom: 2rem;
+  }
+}
+
+@include media-breakpoint-up(md) {
+  .banner {
+    svg {
+      padding-bottom: 1.125rem;
+    }
+  }
+}
