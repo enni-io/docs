@@ -73,7 +73,8 @@ copyRight = "Copyright (c) 2023-2023 enno.io"
 # Alert
 alert = true
 alertDismissable = true
-alertText = "Comming Soon! <a class=\"alert-link stretched-link\" href=\"blog\" target=\"_blank\" rel=\"noopener\">Check out our blog and get prepared</a>"
+#alertText = "Coming Soon! <a class=\"alert-link stretched-link\" href=\"blog\" target=\"_blank\" rel=\"noopener\">Check out our blog and get prepared</a>"
+alertText = "Coming Soon!"
 
 # Edit Page
 # repoHost [Github | Gitea | GitLab | Bitbucket | BitbucketServer ] is used for building the edit link based on git hoster
@@ -92,7 +93,7 @@ lastMod = false
   lazySizes = true
   clipBoard = true
   instantPage = true
-  flexSearch = true
+  flexSearch = false
   searchSectionsShow = []
   searchSectionsIndex = []
   darkMode = true
